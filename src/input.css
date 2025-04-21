@@ -1,0 +1,29 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"); */
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+/* @theme {
+  --font-sansita: "Sansita", sans-serif;
+  --font-sansita-italic: "Sansita", sans-serif;
+  --font-sansita-bold: "Sansita", sans-serif;
+} */
+
+/* .container {
+  @apply container mx-auto px-4 sm:px-6 lg:px-8;
+} */
+
+.hamburger-line {
+  @apply my-2 block h-[2px] w-[30px] bg-primary;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
