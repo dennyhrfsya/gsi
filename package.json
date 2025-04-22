@@ -6,7 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "gitadd": "git add .",
-    "gitstatus": "git status"
+    "gitstatus": "git status",
+    "gitcommit": "git commit -m",
+    "gitlog": "git log",
+    "gitpush": "git push -u origin main",
+    "gitgraph": "git log --graph --oneline --all"
   },
   "author": "",
   "license": "ISC",
