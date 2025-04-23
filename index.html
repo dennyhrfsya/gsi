@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link href="dist/output.css" rel="stylesheet">
+    <!-- <link href="dist/output.css" rel="stylesheet"> -->
+    <!-- Sudah di kompres -->
+    <link href="dist/final.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Header Section -->
-    <header class="relative bg-transparent left-0 top-0 flex w-full items-center">
+    <header class="absolute left-0 top-0 z-10 flex w-full items-center bg-transparent">
         <div class="container">
             <div class="relative flex items-center justify-between">
                 <div class="px-4">
                     <img src="dist/img/logo-gsi.png" class="w-[130px] block py-6" alt="Logo">
                 </div>
 
-                <div class="flex items-center px-4 z-10">
+                <div class="flex items-center px-4">
                     <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
                         <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
                         <span class="hamburger-line transition duration-300 ease-in-out"></span>
@@ -43,7 +45,7 @@
                             </li>
                             <li class="group">
                                 <a href="#contact"
-                                    class="mx-8 flex py-2 text-base font-semibold text-primary hover:text-secondary">Contact</a>
+                                    class="mx-8 flex py-2 text-base font-semibold text-primary hover:text-secondary">Kontak</a>
                             </li>
                             <li class="group">
                                 <a href="#" class="mx-8 flex py-2 text-textone hover:text-gray-500">
@@ -65,7 +67,7 @@
     <!-- Header End -->
 
     <!-- Hero Section Start -->
-    <section id="#">
+    <section id="home">
         <div class="container">
             <div class="relative isolate px-6 lg:px-8">
                 <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -102,7 +104,7 @@
     <!-- Hero Section End -->
 
     <!-- About Us Section Start -->
-    <section id="#" class="bg-primary py-24 shadow-2xl rounded-t-4xl relative z-10">
+    <section id="about" class="bg-primary py-24 shadow-2xl rounded-t-4xl relative z-10">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:text-center">
                 <div class="flex items-start lg:justify-center">
@@ -190,7 +192,7 @@
     <!-- Manager Section End -->
 
     <!-- Product Section Start -->
-    <section class="bg-gray-50 py-24 sm:py-32">
+    <section id="product" class="bg-gray-50 py-24 sm:py-32">
         <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
             <h2 class="text-center text-base/7 font-semibold text-primary">Layanan Kami</h2>
             <p
@@ -281,31 +283,6 @@
             </div>
         </div>
     </section>
-    <!-- <div
-            class="mx-auto grid-cols-1 flex flex-wrap max-w-7xl gap-x-8 gap-y-4 px-6 lg:px-8 lg:max-w-7xl lg:grid-cols-2">
-            <h2 class="text-4xl font-bold tracking-normal text-primary sm:text-5xl">Layanan Kami</h2>
-            <div class="text-justify text-wrap">
-                <p class="text-base/7 sm:text-[1.1rem] text-gray-500 font-normal">Demi menjawab
-                    kebutuhan
-                    akan barang dengan kualitas terbaik di berbagai sektor yang
-                    membutuhkan, Kami hadir untuk menjawab tantangan tersebut, dengan memastikan setiap
-                    barang
-                    yang didistribusikan adalah barang dengan kualitas terbaik dan selalu dipastikan
-                    integritasnya. Kami memiliki standar yang selalu dijaga dari awal berdiri hingga saat
-                    ini
-                    untuk memastikan kebutuhan konsumen dapat terfasilitasi dengan sangat baik.
-                </p>
-            </div>
-            <div class="text-justify text-wrap">
-                <p class="text-base/7 sm:text-[1.1rem] text-gray-500 font-normal"><span class="font-bold">PT
-                        Global Sekuriti
-                        Indonesia</span> ditenagai oleh sistem yang mempuni dan juga staff yang ahli dan juga teliti
-                    untuk
-                    menangani distribusi berbagai macam barang hingga sampai ke tangan konsumen.
-                </p>
-            </div>
-        </div> -->
-    <!-- Product Section End -->
 
     <!-- Partners Section Start -->
     <section class="bg-white py-24 sm:py-32">
@@ -377,11 +354,11 @@
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="mb-12 w-full px-4 font-medium text-white md:w-1/3">
-                    <h2 class="mb-5 text-4xl font-semibold text-white">GSI</h2>
                     <h3 class="mb-5 text-2xl font-bold text-secondary">Hubungi Kami</h3>
-                    <p>dxed@gmail.com</p>
-                    <p>Jl G No.10 RT004 RW03 Slipi</p>
-                    <p>Jakarta Barat - DKI Jakarta</p>
+                    <p>info@gsi.co.id</p>
+                    <p>Gedung Graha Anugerah Lantai 6</p>
+                    <p>Jl.Teluk Betung No.42, Kebon Melati - Tanah Abang, Jakarta Pusat 10230</p>
+                    <p>No Telp 021-3911373</p>
                 </div>
                 <div class="mb-12 w-full px-4 md:w-1/3">
                     <h3 class="mb-5 text-xl font-semibold text-secondary">
@@ -412,7 +389,7 @@
                             <a href="#product" class="mb-3 inline-block text-base hover:text-secondary">Layanan Kami</a>
                         </li>
                         <li>
-                            <a href="#contact" class="mb-3 inline-block text-base hover:text-secondary">Contact</a>
+                            <a href="#contact" class="mb-3 inline-block text-base hover:text-secondary">Kontak</a>
                         </li>
                     </ul>
                 </div>
@@ -473,14 +450,21 @@
                 </div>
                 <p class="text-center text-xs font-medium text-white">
                     Dibuat dengan <span class="text-pink-500">❤️</span> oleh
-                    <a href="https://instagram.com/dennyhrfsya" target="_blank" class="font-bold text-secondary">Denny
-                        Herfansya</a>, menggunakan
+                    <a href="https://instagram.com/dennyhrfsya" target="_blank" class="font-bold text-secondary">D e x
+                        D</a>, menggunakan
                     <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500">Tailwind CSS 4</a>.
                 </p>
             </div>
         </div>
     </footer>
     <!-- Footer End -->
+
+    <!-- Back to top Start -->
+    <a href="#home" id="to-top"
+        class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 items-center justify-center rounded-2xl bg-secondary p-4 hover:animate-pulse">
+        <span class="mt-2 block h-5 w-5 rotate-45 border-l-2 border-t-2"></span>
+    </a>
+    <!-- Back to top End -->
 
     <script src="dist/js/script.js"></script>
 </body>

@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "minify": "tailwindcss -i ./src/input.css -o ./dist/final.css --minify",
     "gitadd": "git add .",
     "gitstatus": "git status",
     "gitcommit": "git commit -m",
