@@ -1,15 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html"],
+  content: ['index.html'],
   theme: {
     container: {
       center: true,
-      padding: "16px",
+      padding: '16px',
     },
     extend: {
       colors: {
-        primary: "#0652DD",
-        secondary: "#FFC312",
+        primary: '#0652DD',
+        secondary: '#FFC312',
       },
     },
   },
