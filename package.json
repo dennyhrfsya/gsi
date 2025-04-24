@@ -11,6 +11,7 @@
     "gitcommit": "git commit -m",
     "gitlog": "git log",
     "gitpush": "git push -u origin main",
+    "gitpull": "git pull origin main",
     "gitgraph": "git log --graph --oneline --all",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
